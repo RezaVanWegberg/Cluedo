@@ -26,8 +26,10 @@ if Ervaring > (3) and Spel == "J": #Ik vindt dat dit meer dan 3 jaar moet zijn
         print("Je mag op auditie voor de rol van Mevrouw Blaauw van Draet")
     elif Leeftijd >=(38) and Snor == ("J") and Lengte > (160): #Prof Pimpel
         print("Je mag op auditie voor de rol van Professor Pimpel")
-    elif Leeftijd >(20) and KleurHaar == "Bruin" and Krullen == "J":
+    elif Leeftijd >(20) and Geslacht == ("V") and Krullen == "J": #Rosa Roodhart
         print("Je mag op auditie voor de rol van Rosa Roodhart")
+    elif Leeftijd >=(40) and Geslacht == ("M") and Ervaring >=(10): #Dominee Groenewoud
+        print("Je mag op auditie voor de rol van Dominee Groenewoud")
     else:
         print("Je mag helaas niet op auditie")
 else:
